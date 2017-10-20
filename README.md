@@ -30,7 +30,7 @@ Use it like:
 When it initiates, you can submit the options object like:
 
 ```js
-	cwl.init({
+    cwl.init({
         listContainer: "[CSS selector]"
         contentContainer: "[CSS selector]"
     });
