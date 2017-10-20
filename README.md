@@ -10,7 +10,7 @@ Include it in your HTML after importing jQuery, like:
 
 ```html
     <script type="text/JavaScript" src="path/to/jquery.content-with-list.min.js" />
-    <link rel="stylesheet" type="text/css" href="path/to/jquery.content-with-list.min..css">
+    <link rel="stylesheet" type="text/css" href="path/to/jquery.content-with-list.min.css">
 ```
 	
 이렇게 사용합니다:
