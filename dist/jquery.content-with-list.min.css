@@ -1,0 +1,7 @@
+.cwl-list-container .list-item { opacity: 0.6; }
+
+.cwl-list-container .selected { opacity: 1; }
+
+.cwl-content-container .content-item, .cwl-content-container .content-cover { display: none; }
+
+.cwl-content-container .selected { display: block; }

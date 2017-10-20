@@ -1,0 +1,18 @@
+.cwl-list-container {
+  .list-item {
+    opacity: 0.6;
+  }
+  .selected {
+    opacity: 1;
+  }
+}
+
+.cwl-content-container {
+  .content-item,
+  .content-cover {
+    display: none;    
+  }
+  .selected {
+    display: block;
+  }
+}

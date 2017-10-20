@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="lib/jquery.content-with-list.min.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="lib/jquery.content-with-list.min.js"></script>
+</head>
+
+<body>
+  <h1>jQuery Content with List Plugin</h1>
+  <hr>
+  <div class="list-container"></div>
+  <hr>
+  <div class="content-container"></div>
+  <script>
+    const test = $.contentWithList;
+    test.init();
+    test.defaultMessage('Select item on the list.');
+    test.draw([
+      {
+        listItem: 'Abet',
+        contentItem: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.',
+        selected: false
+      },
+      {
+        listItem: 'Betty',
+        contentItem: 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
+        selected: false
+      },
+      {
+        listItem: 'Charlie',
+        contentItem: 'ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        selected: false
+      },
+      {
+        listItem: 'David',
+        contentItem: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        selected: false
+      }
+    ]);
+  </script>
+</body>
+
+</html>
