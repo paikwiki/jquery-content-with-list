@@ -6,7 +6,7 @@
         // default settings
         settings.msg = '<p>선택한 아이템이 없습니다.</p>'
   
-        if (typeof settingValue === 'undefined') {
+        if (typeof settingsValue === 'undefined') {
           settings.lc = '.list-container'
           settings.cc = '.content-container'
           return
@@ -93,13 +93,13 @@
           e.preventDefault()
   
           // 리스트 아이템 조작
-          const tLItemClass = '.' + ($(this).parent().attr('class')).match(/list-item[0-9]/).toString()
+          const tLItemClass = '.' + ($(this).parent().attr('class')).match(/list-item[0-9]+/).toString()
           
           $(lItem).removeClass('selected')
           $(tLItemClass).addClass('selected')
   
           // 콘텐츠 아이템 조작
-          const tCItemClass = '.content-item' + (tLItemClass.match(/[0-9]/).toString())
+          const tCItemClass = '.content-item' + (tLItemClass.match(/[0-9]+/).toString())
           $(cItem).removeClass('selected')
           $(tCItemClass).addClass('selected')
         })
