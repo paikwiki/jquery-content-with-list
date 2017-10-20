@@ -6,6 +6,8 @@ jquery-content-with-list is a plugin to make content container with tab navigati
 
 ## Usage
 
+jQuery를 호출한 후, 아래와 같이 불러 옵니다.
+
 Include it in your HTML after importing jQuery, like:
 
 ```html
